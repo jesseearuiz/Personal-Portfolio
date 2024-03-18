@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Jessee Ruiz</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jessee Ruiz</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="phone-nav">
+      <div class="logo">Jessee Ruiz</div>
+      <div class="phone-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick()="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick()="toggleMenu()">Projects</a></li>
+          <li><a href="#experience" onclick()="toggleMenu()">Experience</a></li>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <section class="profile">
+        <img
+          class="Me"
+          src="./assets/Filler Headshot.jpg"
+          alt="My Headshot"
+        />
+        <p>Hello, I'm</p>
+        <h2>Jessee Ruiz</h2>
+        <p class="profile_text">
+          CS @ Boston College <br />
+          Aspiring Software Developer <br />
+          Phone: 832-512-0476 <br />
+          Email: ruizjg@bc.edu <br />
+        </p>
+        <div class="btn-container">
+          <button class="btn1" onclick="window.open('./assets/Jessee_Ruiz_Resume.pdf')">Download CV</button>
+        </div>
+        <div class="socials-cont">
+          <img
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+            class="icon"
+            onclick="location.href='http://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github"
+            class="icon"
+            onclick="location.href='http://github.com/'"
+          />
+        </div>
+      </section>
+      <section>
+        <div id="about">
+          <p class="about-title">Get to Know More</p>
+          <h2 class="about-title">About Me</h2>
+          <div class="about-containers">
+            <div class="about-details-container">
+              <img
+                src="./assets/experience.png"
+                atl="Experience_Icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                Django <br />
+                React, Node.js <br />
+                Full Stack Devlopment
+              </p>
+            </div>
+            <div class="about-details-container">
+              <img
+                src="./assets/education.png"
+                atl="Experience_Icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.A. Computer Science<br />
+                Full-Stack Development Certification
+              </p>
+            </div>
+          </div>
+          <div class="about-cont-text">
+            <p>
+              Hello! I'm Jessee Ruiz, and I'm thrilled to share a bit about my
+              journey into the world of programming. Eager to learn and
+              passionate about technology, I've embarked on a full-stack
+              software engineering path. From crafting sleek user interfaces to
+              building robust backend systems, I'm on a mission to master the
+              art and science of coding. As I navigate this exciting landscape,
+              I'm driven by a curiosity to create innovative solutions that make
+              a tangible difference.
+            </p>
+          </div>
+        </div>
+        <div id="projects">
+          <h2 class="projects">Project Experience</h2>
+          <h3 class="project-title">Boston College Four-Year-Planner</h3>
+          <p class="project-par">
+            • Adhering to established software development methodologies,
+            collaborated with a team of four members gaining proficiency in Git
+            and GitHub collaboration techniques and best practices.<br />
+            • Creating a 4-year Planner using Django Web-Development for fast
+            and responsive development improving upon Boston College’s Eagle
+            Apps software for ease of student course and graduation planning.<br />
+            • Implementing the Eagle Apps API allowing for a seamless transfer
+            of database information and responsive interactions with website
+            functions
+          </p>
+          <h3 class="project-title">Boston College Newspaper Website</h3>
+          <p class="project-par">
+            • Collaborated with a team of 6 members to maintain site
+            functionality, improve user experience, and implement innovative
+            features and enhancements using CSS3 and HTML5, resulting in
+            increased engagement from students, alumni, and surrounding
+            communities.<br />
+            • Began a new project developing a custom content management system
+            for the school newspaper using React, enhancing the content creation
+            process for editors. <br />
+            • Developing and implementing a responsive web app using React to
+            optimize content management, utilizing Redux for state management,
+            and integrating with a Node.js backend
+          </p>
+        </div>
+        <div id="experience">
+          <h2 class="projects">Work / Leadership Experience</h2>
+          <h3 class="project-title">EMERGE College Transition Mentor</h3>
+          <p class="project-par">
+            • Managed a group of 8 mentees across Boston College and Boston
+            University guiding them through their first-year college transition
+            by answering any questions and connecting them to appropriate campus
+            resources seeing an average .24 improvement in GPA and campus
+            engagement from one semester to the next. <br />
+            • Conducted regular monthly meetings with mentees to asses and
+            enhance their academic progress, college involvement, and success
+            strategies ensuring accountability and facilitating their
+            development. <br />
+            • Prepared and submitted detailed progress reports to the
+            organization providing regular updates on mentees’ development and
+            contributing to program improvement.
+          </p>
+        </div>
+        <p></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
