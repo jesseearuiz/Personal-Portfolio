@@ -1,3 +1,2 @@
-This repo is mean to serve as my living resume. 
-Altough simple for now, I would love to expland it to include
-my everyday interests experiences one day. 
+This repo is meant to serve as my living resume. 
+Although simple for now, I plan to add more styling, better formatting, and a section about my everyday interests. 
